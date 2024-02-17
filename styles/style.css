@@ -322,3 +322,20 @@ footer{
     padding: 20px;
     margin-left: 600px;
 }
+
+.coming-soon{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 50px;
+}
+.heading-offer{
+    color: rgb(255, 0, 0);
+    
+}
+.best-offer{
+    max-width: 400px;
+}
+.right{
+    max-width: 200px;
+}
