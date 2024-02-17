@@ -326,7 +326,7 @@ footer{
 .coming-soon{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     margin-left: 50px;
 }
 .heading-offer{
@@ -338,4 +338,9 @@ footer{
 }
 .right{
     max-width: 200px;
+}
+.holiday{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
 }
