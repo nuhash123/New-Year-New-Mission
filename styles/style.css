@@ -65,7 +65,7 @@ body {
 }
 
 .banner {
-    padding: 100px 200px 150px 200px;
+    padding: 100px 200px 200px 200px;
     text-align: center;
 }
 
@@ -208,33 +208,92 @@ body {
 
 .gift-portfolio {
     color: rgb(7, 2, 17);
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0%;
-text-align: left;
-text-transform: capitalize;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
 }
 
 .gift-description {
     color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0%;
-text-align: left;
-max-width: 800px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 800px;
 }
-.gift{
+
+.gift {
     margin-left: 70px;
 }
-.item{
+
+.item {
     display: flex;
     border-radius: 16px;
     gap: 20px;
     padding: 10px;
-    margin: 0px 70px 0px 70px ;
+    margin: 0px 70px 0px 70px;
+
+}
+
+.mail-pic {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 100PX;
+    margin-left: 600PX;
+}
+
+.subscribe {
+    margin: 30PX 90PX 30PX 70PX;
+    border-radius: 16px;
+
+    background: rgba(255, 0, 0, 0.05);
+    padding-bottom: 50px;
+}
+.heading-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+max-width: 700px;
+margin-left: 350px;
+text-align: center;
+
+
+}
+.heading{
+    color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+text-align: center;
+}
+.input{
+    border-radius: 50px 0px 0px 50px;
+
+background: rgb(255, 255, 255);
+width: 300px;
+height: 50px;
+border: 0px;
+padding-left: 20px;
+
+}
+.inp{
+    width: 100px;
+height: 55px;
+
+    border-radius: 0px 50px 50px 0px;
+
+background: rgb(255, 0, 0);
+border: 0px;
+}
+.sub-input{
     
+    gap: 0;
+    margin-left: 450px;
 }
